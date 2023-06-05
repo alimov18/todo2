@@ -10,7 +10,10 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: onPressed,
-      child: Text(text),
+      child: Text(
+        text,
+        style: TextStyle(fontFamily: 'Poppins'),
+      ),
       color: Theme.of(context).primaryColor,
     );
   }

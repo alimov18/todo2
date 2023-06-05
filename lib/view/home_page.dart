@@ -76,6 +76,9 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 111, 111, 255),
       appBar: AppBar(
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(bottom: Radius.circular(15)),
+        ),
         backgroundColor: const Color(0xff3b28cc),
         title: const Center(
           child: Text("TO DO"),

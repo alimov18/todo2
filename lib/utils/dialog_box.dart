@@ -25,15 +25,18 @@ class DialogBox extends StatelessWidget {
             TextField(
               controller: controller,
               decoration: const InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: "Add a new task",
-              ),
+                  border: OutlineInputBorder(),
+                  hintText: "Add a new task",
+                  hintStyle: TextStyle(fontFamily: 'Poppins')),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 //save button
-                MyButton(text: "Save", onPressed: onSave),
+                MyButton(
+                  text: "Save",
+                  onPressed: onSave,
+                ),
                 const SizedBox(
                   width: 8,
                 ),
