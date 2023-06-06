@@ -1,19 +1,15 @@
-# app2
+### <center>Flutter ToDo App</center>
 
-A new Flutter project.
+commanf for running:
+```
 
-## Getting Started
+flutter pub get
+flutter run -d YOUR_HOST
 
-This project is a starting point for a Flutter application.
+```
 
-A few resources to get you started if this is your first Flutter project:
+* YOUR_HOST ->  Android AVD, Real Device, iOS Simulator, Linux, Chrome, etc...
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This app tested in Android Real Device, Android AVD and Linux.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-https://youtu.be/mMgr47QBZWA?t=1338
+<a href="https://github.com/alimov18">Anvar</a> and <a href="https://flutter.dev">Flutter</a>
