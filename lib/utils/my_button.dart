@@ -10,11 +10,13 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: onPressed,
+      color: Theme.of(context).primaryColor,
+      // ignore: prefer_const_constructors
       child: Text(
         text,
         style: TextStyle(fontFamily: 'Poppins'),
       ),
-      color: Theme.of(context).primaryColor,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
     );
   }
 }

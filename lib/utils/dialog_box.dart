@@ -17,17 +17,19 @@ class DialogBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       backgroundColor: Colors.indigoAccent,
-      content: SizedBox(
+      content: Container(
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
         height: 120,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             TextField(
               controller: controller,
-              decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
+              decoration: InputDecoration(
+                  border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(20)),
                   hintText: "Add a new task",
-                  hintStyle: TextStyle(fontFamily: 'Poppins')),
+                  hintStyle: const TextStyle(fontFamily: 'Poppins')),
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,

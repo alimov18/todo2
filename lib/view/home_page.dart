@@ -81,7 +81,10 @@ class _HomePageState extends State<HomePage> {
         ),
         backgroundColor: const Color(0xff3b28cc),
         title: const Center(
-          child: Text("TO DO"),
+          child: Text(
+            "TO DO",
+            style: TextStyle(fontFamily: 'Poppins'),
+          ),
         ),
         elevation: 0,
       ),
